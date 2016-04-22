@@ -6,9 +6,9 @@ import qiniu.conf
 import qiniu.rs
 import qiniu.io
 
-BUCKET_NAME = "idcard"
-qiniu.conf.ACCESS_KEY = "vTlIBSb6E3VCaL6dH13lye9iWkHpkSDN4_UhzRTK" 
-qiniu.conf.SECRET_KEY = "8v9NMvJJry5z-alc918uip50SMJFhn5550cg4uyQ" 
+BUCKET_NAME = ""
+qiniu.conf.ACCESS_KEY = "" 
+qiniu.conf.SECRET_KEY = "" 
 def index(request):
     return render(request, 'demo/index.html')
 
